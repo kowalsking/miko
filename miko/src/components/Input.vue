@@ -3,6 +3,7 @@
     <span>{{ msg }}</span>
     <input
       :type="type"
+      :value="value"
     />
   </div>
 </template>
@@ -19,6 +20,10 @@ export default Vue.extend({
     msg: {
       type: String,
       required: true
+    },
+    value: {
+      type: [String, Number],
+      required: false
     }
   }
 })

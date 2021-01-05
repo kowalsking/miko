@@ -4,8 +4,12 @@
       id="miko"
       :width="width"
       :height="height"
-    ></canvas>
-    <CanvasControlls />
+    />
+    <CanvasControlls
+      :width="width"
+      :height="height"
+      :fill="fill"
+    />
   </div>
 </template>
 

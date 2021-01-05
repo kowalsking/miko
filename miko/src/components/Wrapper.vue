@@ -19,7 +19,7 @@ export default Vue.extend({
   data: () => ({
     width: 600,
     height: 800,
-    fill: 'cyan'
+    fill: '#00ffff'
   })
 })
 </script>

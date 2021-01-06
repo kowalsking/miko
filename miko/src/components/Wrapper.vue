@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Canvas
-      :width="width"
-      :height="height"
-      :fill="fill"
-    />
+    <Canvas />
   </div>
 </template>
 
@@ -15,12 +11,7 @@ import Canvas from './Canvas.vue'
 export default Vue.extend({
   components: {
     Canvas
-  },
-  data: () => ({
-    width: 600,
-    height: 800,
-    fill: '#00ffff'
-  })
+  }
 })
 </script>
 
